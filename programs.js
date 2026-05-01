@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    loadCSV("./Data/2026/April 24.csv");
+    loadCSV("./data/2026/April24.csv");
 });
 
 /* My form actually submits to a Google Sheet */
@@ -100,10 +100,11 @@ function changeTitle() {
   let header = document.getElementById("date-header");
   // Access selector value
   let date = document.getElementById("week-selector").value;
+  let datefile = date.replaceAll(" ", "")
   // Change header
   header.textContent = "2026 " + date;
   // Create path
-  path = "./Data/2026/" + date + ".csv";
+  path = "./data/2026/" + datefile + ".csv";
   // Call function to change table
   loadCSV(path);
 }

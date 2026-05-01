@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function loadGoatCSV() {
-    Papa.parse("./Data/tsc_goat.csv", {
+    Papa.parse("./data/tsc_goat.csv", {
         download: true,
         skipEmptyLines: true,
         header: true,
