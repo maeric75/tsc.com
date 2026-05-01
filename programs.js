@@ -100,7 +100,7 @@ function changeTitle() {
   let header = document.getElementById("date-header");
   // Access selector value
   let date = document.getElementById("week-selector").value;
-  let datefile = date.replaceAll(" ", "")
+  let datefile = date.replaceAll(" ", "");
   // Change header
   header.textContent = "2026 " + date;
   // Create path
@@ -109,3 +109,16 @@ function changeTitle() {
   loadCSV(path);
 }
 
+let contactBtn = document.getElementById("contact-button")
+contactBtn.addEventListener("click", function(e) {
+  e.preventDefault();
+  displayMessage();
+})
+
+function displayMessage() {
+  let h1 = document.getElementById("contact-h1");
+  let p = document.getElementById("contact-p");
+  h1.textContent = "Thank You!";
+  h1.style.color = "lightgreen";
+  p.textContent = "We appreciate your feedback! We will get back to you as soon as possible.";
+}
