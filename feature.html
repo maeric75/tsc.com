@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Featured Article | TSC Top 100</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="viewport_styles.css" rel="stylesheet">
+    <link href="viewport_styles_feature.css" rel="stylesheet">
+    <script src="programs.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN">
+    <link href="carousel/carousel.css" rel="stylesheet">
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: rgb(0, 0, 62);
+            font-family: "Prompt", sans-serif;
+        }
+        #header p, #footer p{
+            margin: 0;
+            padding: 0;
+        }
+        .inner-carousel-text {
+            color: cyan;
+            text-shadow: 2px 1px black;
+        }
+        #myCarousel {
+            border-bottom: 8px inset lightblue;
+            margin-bottom: 0;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <header id="header">
+        <div id="logo-div">
+            <img src="Images/tsc_logo.png" alt="TSC Logo" width="60px">
+            <p id="logo-text">TSC TOP 100</p>
+        </div>
+        <nav>
+            <a href="index.html">Current Week</a>
+            <a href="goat.html">All Time</a>
+            <a href="feature.html">Featured</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div id="feature-body">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/ellalangley.jpg" alt="Choosin' Texas" style="filter: grayscale(1)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <div class="inner-carousel-text">
+                            <h1>Choosin' Texas Holds Strong</h1>
+                            <p>Now in its 11th week at the top, how long can it hold?</p>
+                        </div>
+                        <p><a class="btn btn-lg btn-primary" href="#article1">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/bieberchella.webp" alt="Bieberchella" style="filter: grayscale(1) brightness(75%)">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="inner-carousel-text">
+                            <h1>"Bieberchella" Makes Waves</h1>
+                            <p>The viral festival set caused havoc on the charts this week.</p>
+                        </div>
+                        <p><a class="btn btn-lg btn-primary" href="#article2">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/moonrocks.webp" alt="Dexter and the Moonrocks" style="filter: grayscale(1) brightness(50%)">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <div class="inner-carousel-text">
+                            <h1>We're "Freakin' Out": Rock Is Back</h1>
+                            <p>Dexter & the Moonrocks land the first rock-and-roll Top 40 hit in years.</p>
+                        </div>
+                        <p><a class="btn btn-lg btn-primary" href="#article3">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="articles">
+        
+        <div id="article1" class="art">
+            <img src="Images/choosin-texas.jpg">
+            <div class="art-text">
+                <h2>Choosin' Texas Holds Strong</h2>
+                <h4>May 1, 2026</h4>
+                <p>Ella Langley's rise has been something to behold. After previously peaking at #22 for "weren't for the wind", "Choosin' Texas" rocketed to #1 earlier this year and has not looked back. Now in it's 11th week, it is rivaling other recent, impressive runs at #1:</p>
+                <ul>
+                    <li>In 2023, Morgan Wallen's "Last Night" set the record, with 22 weeks at the top.</li>
+                    <li>Shaboozey's "A Bar Song (Tipsy)" had 12 weeks at #1 in 2024.</li>
+                    <li>Last year, "Golden" from the <i>K-POP DEMON HUNTERS</i> soundtrack maintained its peak for 13 weeks.</li>
+                    <li>Taylor Swift netted 12 weeks at #1 with "The Fate Of Ophelia" between 2025 and 2026.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="article2" class="art">
+            <img src="Images/swag.webp">
+            <div class="art-text">
+                <h2>Bieberchella Makes Waves</h2>
+                <h4>May 1, 2026</h4>
+                <p>Justin Bieber's set from the recent Coachella festival has taken the internet by storm. Fans, nostalgic for better times, streamed his catalog like it was 3012 this week. Here's the damage:</p>
+                <ul>
+                    <li>Singles from Bieber's 2025 release <i>SWAG</i> rose high ("DAISIES" at #5, "YUKON" peaking at #10).</li>
+                    <li>Jumping to #7 is his Nicki Minaj collab, "Beauty and a Beat."</li>
+                    <li>"Baby," the song that started it all, enters at #33.</li>
+                    <li>"Confident" featuring Chance the Rapper, drops in at #36.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div id="article3" class="art">
+            <img src="Images/freakin-out.jpg">
+            <div class="art-text">
+                <h2>We're "Freakin' Out": Rock Is Back</h2>
+                <h4>May 1, 2026</h4>
+                <p>For the first time in recent memory, an authentic rock act has made their way to the Top 40. The breakout hit from Texan rock band Dexter and the Moonrocks, "Freakin' Out," hit #31 this week. It follows alongside other rock or alternative trends this week:</p>
+                <ul>
+                    <li>Julia Wolf's "In My Room," at #58, similarly harkens back to 2000s rock sounds.</li>
+                    <li>Dominic Fike's snarky alternative sound led "Babydoll" to #12 and "White Keys" to #30.</li>
+                    <li>Similarly, Malcolm Todd is racing up the charts, with "Earrings" at #27 and "Sweet Boy" at #82.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+    
+    </div>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2021-2026 Greene Beene Enterprises  |  Contact us at trendscendingchart@gmail.com</p>
+        <a href="#">Back to Top</a>
+    </footer>
+  </body>
+
+</html>

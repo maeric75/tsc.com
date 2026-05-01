@@ -1,0 +1,203 @@
+/* Tablets Max 1100px */
+@media all and (max-width: 1100px) {
+
+    /* Header */
+    #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    #header nav {
+        width: 100%;
+        position: absolute;
+        top: 70px;
+    }
+    #header nav a {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    #footer {
+        font-size: 18px;
+        text-align: center;
+        flex-direction: column;
+        height: 100px;
+    }
+    #footer a {
+        padding-top: 0;
+        margin: 0;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* Index, GOAT */
+    .chart-current, .chart {
+        margin-bottom: 40px;
+    }
+
+    /* Feature */
+    #myCarousel {
+        display: none;
+    }
+    .art {
+        flex-direction: column;
+        height: 800px;
+    }
+    .art img {
+        height: 40%;
+        box-shadow: 1px 1px solid black;
+    }
+    .art-text {
+        text-align: center;
+    }
+    .art-text li {
+        text-align: left;
+    }
+
+
+    /* About */
+    .about {
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .about img {
+        width: 0;
+    }
+    #how-does-it-work {
+        padding-bottom: 200px;
+    }
+    #song-status-box {
+        margin: 150px;
+    }
+    
+    /* Contact */
+    #contact {
+        align-items: center;
+    }
+    #contact-form {
+        width: 90%;
+        margin-bottom: 200px;
+    }
+    #contact-text p {
+        font-size: 18px;
+    }
+}
+
+/* Mobile Devices Max 600px */
+@media all and (max-width: 600px) {
+
+    /* Header */
+    #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+    #header nav {
+        width: 100%;
+        position: absolute;
+        top: 70px;
+    }
+    #header nav a {
+        font-size: 10px;
+    }
+
+    /* Footer */
+    #footer {
+        font-size: 15px;
+        text-align: center;
+        flex-direction: column;
+        height: 100px;
+    }
+    #footer a {
+        padding-top: 0;
+        margin: 0;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* Index */
+    .chart-text h1 {
+        text-align: center;
+    }
+    .chart-text p {
+        font-size: 12px;
+    }
+    .chart-current table th {
+        font-size: 8px;
+    }
+    .chart-current table td:nth-child(1) {
+        font-size: 12px;
+    }
+    .chart-current table td:nth-child(2) {
+        font-size: 10px;
+    }
+    .chart-current table td:nth-child(3) {
+        font-size: 8px;
+    }
+    .chart-current table td:nth-child(4) {
+        font-size: 6px;
+    }
+    .chart-current table td:nth-child(5), .chart-current table td:nth-child(6), .chart-current table td:nth-child(7) {
+        font-size: 9px;
+    }
+
+    /* GOAT */
+    .chart-text p {
+        font-size: 12px;
+    }
+    .chart table th {
+        font-size: 10px;
+    }
+    .chart table td:nth-child(1) {
+        font-size: 14px;
+    }
+    .chart table td:nth-child(2), .chart table td:nth-child(3) {
+        font-size: 8px;
+    }
+    .chart table td:nth-child(4), .chart table td:nth-child(5), .chart table td:nth-child(6) {
+        font-size: 10px;
+    }
+
+
+    /* Feature */
+    .art {
+        height: 700px;
+    }
+    .art img {
+        width: 80%;
+    }
+    .art-text p, .art-text li {
+        font-size: 11px;
+    }
+
+    /* About */
+    .about {
+        padding-top: 0;
+    }
+    .about-text h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .about-text p, .formula, #song-status p, #song-status li {
+        font-size: 12px;
+    }
+    #how-does-it-work {
+        margin-bottom: 0;
+    }
+
+    /* Contact */
+    #contact {
+        align-items: center;
+    }
+    #contact-form {
+        width: 90%;
+        margin-bottom: 200px;
+    }
+    #contact-text p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Us | TSC Top 100</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="viewport_styles.css" rel="stylesheet">
+    <script src="programs.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header id="header">
+        <div>
+            <img src="Images/tsc_logo.png" alt="TSC Logo" width="60px">
+            <p id="logo-text">TSC TOP 100</p>
+        </div>
+        <nav>
+            <a href="index.html">Current Week</a>
+            <a href="goat.html">All Time</a>
+            <a href="feature.html">Featured</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div id="contact">
+        <div id="contact-text">
+            <h1>Contact Us</h1>
+            <p>Please submit your feedback for this concept or website!<br>
+                We are trying something new, so please let us know how we're doing.<br>
+                Your responses to this form will be sent to trendscendingchart@gmail.com.</p>
+        </div>
+
+        <form id="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbxHQ_CarBYpgDfXJ9_gX-9REZuSN8P6KOXj8X-YLjc6NR7vj8oYdAHDDYjL9eY8Z5Yp/exec">
+            <div class="input">
+                <label for="Date">Date: </label>
+                <input type="date" name="Date" id="Date">
+            </div>
+            
+            <div class="input">
+                <label for="Name">Enter your name here: </label>
+                <input type="text" id="Name" name="Name">
+            </div>
+
+            <div class="input">
+                <label for="Email">Enter your email here: </label>
+                <input type="email" id="Email" name="Email">
+            </div>
+
+            <div class="input">
+                <label for="Message">Type your message: </label>
+                <textarea id="Message" name="Message" rows="4" cols="50"></textarea>
+            </div>
+            
+            <div id="button">
+                <button type="submit">Submit Feedback</button>
+            </div>
+        </form>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2021-2026 Greene Beene Enterprises  |  Contact us at trendscendingchart@gmail.com</p>
+        <a href="#">Back to Top</a>
+    </footer>
+  </body>
+
+</html>

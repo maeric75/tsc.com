@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Current Week | TSC Top 100</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+    <link href="viewport_styles.css" rel="stylesheet">
+    <script src="programs.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header id="header">
+        <div>
+            <img src="Images/tsc_logo.png" alt="TSC Logo" width="60px">
+            <p id="logo-text">TSC TOP 100</p>
+        </div>
+        <nav>
+            <a href="index.html">Current Week</a>
+            <a href="goat.html">All Time</a>
+            <a href="feature.html">Featured</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="chart-main">
+    <div class="chart-text">
+        <h1>TREND★SCENDING CHART TOP 100</h1>
+        <h2 id="date-header">Current Week</h2>
+        <form id="date-form">
+            <label for="week-selector">Select week: </label>
+            <select id="week-selector" name="week-selector">
+                <option>April 24</option>
+                <option>April 17</option>
+                <option>April 10</option>
+                <option>April 3</option>
+                <option>March 27</option>
+                <option>March 20</option>
+                <option>March 13</option>
+                <option>March 6</option>
+                <option>February 27</option>
+                <option>February 20</option>
+                <option>February 13</option>
+                <option>February 6</option>
+                <option>January 30</option>
+                <option>January 23</option>
+                <option>January 16</option>
+                <option>January 9</option>
+                <option>January 2</option>
+            </select>
+            <button type="button" id="go-button">Go</button>
+        </form>
+        <p>See the <a href="about.html">About</a> page to learn how this chart works!</p>
+        <p>Data collected from <a href="https://x.com/talkofthecharts?lang=en">Talk Of The Charts</a></p>
+    </div>
+
+    <div class="chart-current">
+        <table id="pick_data" border="1" style="border-collapse: collapse;"></table>
+    </div>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2021-2026 Greene Beene Enterprises  |  Contact us at trendscendingchart@gmail.com</p>
+        <a href="#">Back to Top</a>
+    </footer>
+  </body>
+
+</html>
