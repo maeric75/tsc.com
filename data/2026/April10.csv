@@ -1,0 +1,101 @@
+Place,Move,Name,Artist,Peak,Weeks,Points
+1,=,Choosin' Texas,Ella Langley,1(x9),25,68.56
+2,1,I Just Might,Bruno Mars,1(x2),13,40.79
+3,1,Man I Need,Olivia Dean,2,33,38.26
+4,4,Be Her,Ella Langley,4,8,36.66
+5,1,Ordinary,Alex Warren,1(x5),61,35.05
+6,-1,Stateside,PinkPantheress feat. Zara Larsson,4,12,33.9
+7,=,Babydoll,Dominic Fike,7,8,33.06
+8,-6,SWIM,BTS,2,3,32.81
+9,=,So Easy (To Fall In Love),Olivia Dean,9,28,30.62
+10,=,Sleepless In A Hotel Room,Luke Combs,9,13,29.15
+11,1,iloveitiloveitiloveit,Bella Kay,11,8,29.07
+12,-1,Golden,HUNTR/X,1(x13),42,28.8
+13,=,Risk It All,Bruno Mars,3,6,28.71
+14,1,Dracula,Tame Impala,14,28,27.95
+15,-1,Be By You,Luke Combs,9,8,27.73
+16,1,E85,Don Toliver,12,10,27.4
+17,-1,The Fate Of Ophelia,Taylor Swift,1(x12),27,24.67
+18,=,WHERE IS MY HUSBAND!,RAYE,12,28,24.06
+19,1,DtMF,Bad Bunny,1(x3),31,22.81
+20,3,Homewrecker,sombr,20,9,22.03
+21,3,Folded,Kehlani,6,43,21.64
+22,=,Opalite,Taylor Swift,2,27,21.41
+23,3,YUKON,Justin Bieber,13,39,20.59
+24,-3,American Girls,Harry Styles,2,5,20.55
+25,=,Body,Don Toliver,10,10,20.26
+26,2,Die On This Hill,SIENNA SPIRO,15,15,18.83
+27,2,White Keys,Dominic Fike,27,7,18.24
+28,4,POP DAT THANG,DaBaby,28,11,18.17
+29,2,Lush Life,Zara Larsson,28,13,18.04
+30,=,FEVER DREAM,Alex Warren,19,6,18.02
+31,-12,FATHER,Kanye West & Travis Scott,19,2,17.81
+32,1,Change My Mind,Riley Green,32,9,17.46
+33,10,Loving Life Again,Ella Langley,33,3,17.19
+34,20,Earrings,Malcolm Todd,34,6,16.66
+35,3,The Fall,Cody Johnson,22,28,16.6
+36,10,Dandelion,Ella Langley,32,10,16.54
+37,-10,ALL THE LOVE,Kanye West & Andre Troutman,27,2,16.3
+38,-2,Let 'Em Know,T.I.,36,10,16.11
+39,36,I Ain't Comin' Back,Morgan Wallen & Post Malone,7,40,17.75
+40,R,FDO,Pooh Shiesty,2,16,15.6
+41,10,Brunette,Tucker Wetmore,41,16,15.42
+42,-7,The Great Divide,Noah Kahan,3,10,15.41
+43,-9,Motion Party,BossMan Dlow,34,4,15.32
+44,-7,What You Saying,Lil Uzi Vert,8,15,14.86
+45,-1,Midnight Sun,Zara Larsson,35,11,14.58
+46,3,Raindance,Dave & Tems,45,10,13.78
+47,=,Porch Light,Noah Kahan,19,4,13.31
+48,25,Freakin' Out,Dexter and The Moonrocks,48,3,13.15
+49,-8,McArthur,"HARDY, Eric Church, Morgan Wallen & Tim McGraw",35,10,12.58
+50,-11,Body to Body,BTS,21,3,12.44
+51,13,Dry Spell,Kacey Musgraves,51,4,12.24
+52,1,In My Room,Julia Wolf,52,5,12.09
+53,33,What You Need,Tems,53,3,11.97
+54,5,Don't We,Morgan Wallen,43,8,11.62
+55,11,Go Away,Weezer,55,2,11.38
+56,-16,Elizabeth Taylor,Taylor Swift,3,22,13.1
+57,-5,Rethink Some Things,Luke Combs,37,3,10.38
+58,5,Days Like These,Luke Combs,38,25,10.3
+59,15,Rein Me In,Sam Fender & Olivia Dean,59,4,10.18
+60,10,The Visitor,SIENNA SPIRO,36,4,9.91
+61,22,Who Knows,Daniel Caesar,39,15,9.8
+62,15,Beautiful Things,Megan Moroney,29,18,9.79
+63,N,Jane!,The Long Faces,63,1,9.68
+64,18,Turn This Truck Around,Jordan Davis,64,6,9.6
+65,6,2,BTS,49,3,9.52
+66,-8,Aperture,Harry Styles,2,11,9.49
+67,20,When Did You Get Hot?,Sabrina Carpenter,13,30,9.28
+68,4,CHANEL,Tyla,24,18,9.24
+69,12,dano,Peso Pluma & Tito Double P,69,8,9.23
+70,R,Tuition,Don Toliver,52,2,9.23
+71,17,Zoo,Shakira,52,9,8.84
+72,-12,Hooligan,BTS,31,3,8.84
+73,R,Can't Sit Still,Lainey Wilson,70,2,8.81
+74,-29,PUNCH DRUNK,Kanye West,45,2,8.78
+75,21,What He'll Never Have,Dylan Scott,75,7,8.59
+76,R,Say Why,Zach Bryan,20,12,8.56
+77,20,Ain't A Bad Life,Thomas Rhett & Jordan Davis,77,11,8.48
+78,-30,WHATEVER WORKS,Kanye West,48,2,8.33
+79,-12,NORMAL,BTS,39,3,8.11
+80,R,Rocky Mountain Low,Corey Kent & Koe Wetzel,78,3,8.11
+81,-39,KING,Kanye West,42,2,8.11
+82,-6,Coming Up Roses,Harry Styles,16,5,8.11
+83,R,Tiramisu,Don Toliver,30,10,8.1
+84,8,Mrs. Trendsetter,Lil Baby,65,7,8.02
+85,8,Plastic Cigarette,Zach Bryan,12,12,7.92
+86,-17,FYA,BTS,34,3,7.89
+87,R,butterflies.,Brent Faiyaz,42,7,7.88
+88,N,Self Aware,Temper City,88,1,7.81
+89,R,Secondhand,Don Toliver feat. Rema,26,9,7.65
+90,N,Be Like A Woman,Chris Rainbow,90,1,7.65
+91,R,ATM,Don Toliver,22,10,7.22
+92,-13,Aliens,BTS,48,3,7.21
+93,-43,THIS A MUST,Kanye West,50,2,7.2
+94,1,Ends of the Earth,Ty Myers,87,13,7.17
+95,R,BOO,H3adband,59,10,7.03
+96,N,Don't Tell On Me,Jason Aldean,96,1,6.84
+97,N,Silent Treatment,Freya Skye,97,1,6.31
+98,R,Ever Since U Left Me,Max B & French Montana,98,3,6.1
+99,N,Hate How You Look,Josh Ross,99,1,5.94
+100,-1,Time's Ticking,Justin Moore,99,7,5.91
